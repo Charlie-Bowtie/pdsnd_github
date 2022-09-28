@@ -1,17 +1,48 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Udacity Bikeshare Project
+Basic data analysis with Python on US Cities' Bikeshare data
 
-### Date created
-Include the date you created this project and README file.
+### Date of Project
+Created: September 21st, 2022
 
-### Project Title
-Replace the Project Title
+### Project Description
+The program asks the user which city, which month(or all months) and which day(or all days) they would like to see Bikeshare data for. Afterwards, it prints the following statistics:
 
-### Description
-Describe what your project is about and what it does
+Most popular month
+
+Most popular day
+
+Most popular hour
+
+Most popular start station
+
+Most popular end station
+
+Most popular combination of start and end stations
+
+Total trip duration
+
+Average trip duration
+
+Number of each type of user
+
+Number of users by gender
+
+Earliest, most recent, and most common year of birth
+
+It then asks if the user would like to view raw trip data 5 lines at a time.
 
 ### Files used
-Include the files used
+bikeshare.py - Python file to run the program
+
+chicago.csv - Bikeshare data for Chicago from Udacity
+
+new_york_city.csv - Bikeshare data for New York City from
+ Udacity
+
+washington.csv - Bikeshare data for Washington D.C. from Udacity. Missing gender and age data columns.
+
+### Author
+Charlie Brackett
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+To Udacity for a very helpful course
