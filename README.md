@@ -31,6 +31,11 @@ Earliest, most recent, and most common year of birth
 
 It then asks if the user would like to view raw trip data 5 lines at a time.
 
+### Requirements
+Language: Python 3.6 or newer
+
+Python Libraries: pandas, numpy, time
+
 ### Files used
 bikeshare.py - Python file to run the program
 
