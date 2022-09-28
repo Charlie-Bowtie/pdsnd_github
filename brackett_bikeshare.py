@@ -132,12 +132,12 @@ def trip_duration_stats(df):
 
     # display total travel time
     total_time = df['Trip Duration'].sum()
-    print('The total travel time is:', total_time)
+    print('The total travel time is:', total_time, "seconds")
 
 
     # display mean travel time
-    mean_time = df['Trip Duration'].mean()
-    print('The mean travel time is:', mean_time)
+    mean_time = round(df['Trip Duration'].mean(), 1)
+    print('The mean travel time is:', mean_time, "seconds")
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -162,9 +162,9 @@ def user_stats(df):
 
     # Display earliest, most recent, and most common year of birth
     if "Birth Year" in df.columns:
-        earliest_birth = df["Birth Year"].min()
-        recent_birth = df["Birth Year"].max()
-        common_birth = df["Birth Year"].mode()[0]
+        earliest_birth = int(df["Birth Year"].min())
+        recent_birth = int(df["Birth Year"].max())
+        common_birth = int(df["Birth Year"].mode()[0])
         print("The earliest year of birth is {}\nThe most recent year of birth is {}\nThe most common year of birth is {}"
            .format(earliest_birth, recent_birth, common_birth))
     else:
@@ -194,6 +194,7 @@ def data_display(df):
             break
         if raw_data == 'yes':
             #Shows five rows of raw data
+            pd.set_option('display.max_columns',200)
             print(df[i:i+5])
             #Increments to next 5 rows
             i += 5
