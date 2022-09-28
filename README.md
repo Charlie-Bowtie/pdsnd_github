@@ -7,27 +7,27 @@ Created: September 21st, 2022
 ### Project Description
 The program asks the user which city, which month(or all months) and which day(or all days) they would like to see Bikeshare data for. Afterwards, it prints the following statistics:
 
-Most popular month
+    Most popular month
 
-Most popular day
+    Most popular day
 
-Most popular hour
+    Most popular hour
 
-Most popular start station
+    Most popular start station
 
-Most popular end station
+    Most popular end station
 
-Most popular combination of start and end stations
+    Most popular combination of start and end stations
 
-Total trip duration
+    Total trip duration
 
-Average trip duration
+    Average trip duration
 
-Number of each type of user
+    Number of each type of user
 
-Number of users by gender
+    Number of users by gender
 
-Earliest, most recent, and most common year of birth
+    Earliest, most recent, and most common year of birth
 
 It then asks if the user would like to view raw trip data 5 lines at a time.
 
