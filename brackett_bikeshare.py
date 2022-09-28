@@ -194,6 +194,7 @@ def data_display(df):
             break
         if raw_data == 'yes':
             #Shows five rows of raw data
+            pd.set_option('display.max_columns',200)
             print(df[i:i+5])
             #Increments to next 5 rows
             i += 5
